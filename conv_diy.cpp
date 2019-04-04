@@ -21,9 +21,28 @@ int your_conv( cv::Mat src,
     // src.ptr<unsigned char>(i)[ calculate INDEX ]
 
     // MAKE YOUR OWN CONVOLUTION PROCESS
+for(//메트 세로 
+for(kernel.cols=0;kernel.cols<kernel.cols->w;src.cols++){ //각 행 필터 
+for(src.rows=0;src.rows<kernel.rows->h;src.rows++){//각 열 필터
+
+int h = 
+Mat dst+=Mat_src(src.cols,src.rows)*Mat_kernel(kernel.cols,kernel.rows);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // if success
-    return 0
+    return 0;
 
     // if fail - in the case of wrong parameters...
     // return -1
