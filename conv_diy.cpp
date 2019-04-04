@@ -22,8 +22,8 @@ int your_conv( cv::Mat src,
 
     // MAKE YOUR OWN CONVOLUTION PROCESS
 for(//메트 세로 
-for(kernel.cols=0;kernel.cols<kernel.cols->w;src.cols++){ //각 행 필터 
-for(src.rows=0;src.rows<kernel.rows->h;src.rows++){//각 열 필터
+for(kernel.cols=0;kernel.cols<kernel.cols->w;kernel.cols){ //각 열 필터 
+for(kernel.rows=0;kernel.rows<kernel.cols->h;kernel.rows++){//각 행 필터
 
 int h = 
 Mat dst+=Mat_src(src.cols,src.rows)*Mat_kernel(kernel.cols,kernel.rows);
